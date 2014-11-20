@@ -1,0 +1,22 @@
+{
+  "manifest_version" : 2 ,
+  "name": "Selecto",
+  "version" : "1.0",
+  "icons" : {
+    "16" : "selecto-small.png",
+    "128" : "selecto-large.png"
+  },
+  "background": {
+    "scripts": ["bckg.js"]
+  },
+  "browser_action": {
+      "default_icon" : "selecto-large.png",
+      "default_title" : "Selecto",
+	   "default_popup": "selecto.html"
+    },
+  "permissions" : [
+    "tabs",
+    "contextMenus",
+	"storage" 
+    ]
+}
